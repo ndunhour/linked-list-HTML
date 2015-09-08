@@ -1,6 +1,6 @@
 ###Console History Sim Stack Trace Challenge
 
-Using a linked list, we are going to demonstrate a use case for a linked list and simulate a stack like you see in a stack trace that replays the history of what we typed.
+Using a linked list, we are going to demonstrate a use case for a linked list and simulate a _stack_ like you see in a stack trace that replays the history of what we typed.
 
 1. Add a text box to an HTML page and 2 buttons, `save` and `dump`.
 2. Every time the user clicks the first button to save, we are going to save the text input to our linked list as the most recent node or head.
