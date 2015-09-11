@@ -69,7 +69,7 @@ function linkedListGenerator() {
     }
 
     for (var i = 0; i < length; i++) {
-      if ( i === number) {sss
+      if ( i === number) {
         return current;
       }
       current = current.next;
@@ -106,6 +106,7 @@ function linkedListGenerator() {
     length = length - 1;
   }
 
+
   function _insert(value,number) {
     var newNode = createNode(value);
     var currNode = _get(number);
@@ -129,3 +130,16 @@ function linkedListGenerator() {
   }
   return train;
 }
+
+  function _hasNext() {
+
+  }
+
+var ll = linkedListGenerator();
+
+ll.add('cat');
+console.log(ll.add);
+ll.add('dog');
+ll.add('monkey');
+ll.add('chicken');
+

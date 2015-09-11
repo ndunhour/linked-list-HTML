@@ -6,14 +6,20 @@
   <script src="linkedList.js"></script>
 </head>
 <body>
+
+  <!-- input from user -->
   Type your text here: <br>
   <input type ="text" id="textBox1" value=" "> <br><br>
   What you typed: <br>
   <input type="text" id="textBox2"> <br><br>
 
+  <!-- save the input to history list -->
+  <input type="button" value="SAVE THE LIST" onclick="ll.add">
 
-  <button onclick="idk.add">SAVE</button>
+  <!-- show the list -->
+  <input type="button" value="SHOW THE LIST" onclick="ll.remove">
 
-  <button onclick="idk.remove">DUMP</button>
+
+  <div id="historyList"></div>
 </body>
 </html>
